@@ -2,6 +2,7 @@ from tkinter import *
 
 root = Tk()
 
+# basic chracterstics of the app
 root.title('PY-CALCULATOR')
 root.geometry('230x295')
 icon = PhotoImage(file = 'calculator.png')
@@ -10,6 +11,7 @@ root.iconphoto(False, icon)
 
 func = None
 
+# functions that calculates,clears or displays numbers
 def add(num):
 	pre = e.get()
 	e.delete(0,END)
@@ -70,7 +72,7 @@ def clear():
 	global func
 	func = None
 
-
+# app widgets
 e = Entry(root, width = 35, borderwidth = 10)
 e.grid(row = 0, column = 0, columnspan = 4)
 
