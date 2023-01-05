@@ -7,3 +7,7 @@ PY_CALCULATOR is a tkinter program that helps one to carry on simple arithmetic 
 - DIVISION
 
 IN THIS CALCULATOR
+
+
+# just give it a try i'm sure you,ll like it
+
